@@ -73,6 +73,7 @@ header img{
 }
 
 .card{
+    border-radius: 3%;
     display: flex;
     justify-content: center;
     padding-top: 100px;
@@ -131,6 +132,15 @@ header img{
     flex-direction: column;
     width: 40%;
 }
+
+#topo-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700; 
+    font-size: 20px;
+} 
 
 #secao-services{
     height: 100vh;
