@@ -75,3 +75,22 @@ header img{
     cursor: pointer;
 }
 
+.card .image { 
+    height: 200%;
+    width: 200%;
+}
+
+.image img { 
+    height: 100%;
+    width: 100%;
+}
+
+.card .texto {
+    position: absolute;
+    top: 0;
+}
+
+#image img{
+    border-radius: 50%;
+}
+
