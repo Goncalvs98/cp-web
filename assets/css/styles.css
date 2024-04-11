@@ -4,6 +4,8 @@ header{
     height: 100vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
     header::before{
@@ -23,7 +25,7 @@ header{
 .button-20 {
     appearance: button;
     background-color: #473BF0;
-    width: 70%;
+    width: 30%;
     border-radius: .5rem;
     box-sizing: border-box;
     color: #FFF;
@@ -111,6 +113,7 @@ header img{
 .card .texto {
     position: absolute;
     display: flex;
+    width: 80%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -126,6 +129,7 @@ header img{
 #header-text{
     display: flex;
     flex-direction: column;
+    width: 40%;
 }
 
 #secao-services{
