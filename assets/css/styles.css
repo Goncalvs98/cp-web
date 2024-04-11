@@ -49,14 +49,23 @@ header{
     font-size: 36px;
 }
 
-#asdads h1{
+
+
+#secao-projetos ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    height: 100%;
+}
+
+#texto h3{
     font-family: "Noto Sans", sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
 
 
-#asdads h2{
+#texto p{
     font-family: "Noto Sans", sans-serif;
     font-weight: 400;
     font-size: 17px;
@@ -68,5 +77,24 @@ header{
     top: 1134px;
     position: relative;
     cursor: pointer;
+}
+
+.card .image { 
+    height: 200%;
+    width: 200%;
+}
+
+.image img { 
+    height: 100%;
+    width: 100%;
+}
+
+.card .texto {
+    position: absolute;
+    top: 0;
+}
+
+#image img{
+    border-radius: 50%;
 }
 
