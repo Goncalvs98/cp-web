@@ -2,25 +2,28 @@
 
 header{
     height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
     header::before{
         content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
         background-image: url('../images/8a36a3db7f0fdeb25f04a053079380b3.png');
-        opacity: .156;
         background-size: cover;
+        position: absolute;
         display: block;
         width: 100vw;
         height: 100vh;
         z-index: -10;
+        top: 0;
+        left: 0;
+        opacity: .156;
     }
 
 .button-20 {
     appearance: button;
     background-color: #473BF0;
+    width: 70%;
     border-radius: .5rem;
     box-sizing: border-box;
     color: #FFF;
@@ -67,17 +70,37 @@ header img{
     height: 263px;
 }
 
-.card {
-    max-height: 483px;
-    max-width: 350px;
-    top: 1134px;
+.card{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    height: 483px;
+    width: 350px;
     position: relative;
     cursor: pointer;
 }
 
+ #prim{
+    background-color: #68D585;
+    height: 483px;
+    width: 350px;
+}
+
+#sec{
+    background-color: #473BF0;
+    height: 483px;
+    width: 350px;
+}
+
+#terc{
+    background-color: #F64B4B;
+    height: 483px;
+    width: 350px;
+}
+
 .card .image { 
-    height: 200%;
-    width: 200%;
+    height: 30%;
+    width: 30%;
 }
 
 .image img { 
@@ -87,10 +110,29 @@ header img{
 
 .card .texto {
     position: absolute;
-    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50%;
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#image img{
-    border-radius: 50%;
+.card .texto h3{
+    stroke: 12px;
 }
 
+#header-text{
+    display: flex;
+    flex-direction: column;
+}
+
+#secao-services{
+    height: 100vh;
+}
+
+#secao-services ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
