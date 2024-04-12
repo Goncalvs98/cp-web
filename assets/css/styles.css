@@ -133,6 +133,11 @@ header img{
     width: 40%;
 }
 
+#secao-services #corpo-services{
+    color: #F64B4B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #topo-services{
     display: flex;
     flex-direction: column;
@@ -146,6 +151,9 @@ header img{
 } 
 
 #secao-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100vh;
 }
 
